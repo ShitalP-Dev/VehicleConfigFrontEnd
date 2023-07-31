@@ -1,0 +1,27 @@
+{
+    "seg":{
+    "seg": [
+      {
+        "segid":1,
+        "segType":"Small Cars",
+        "minQty":8
+      },
+      {
+        "segid":2,
+        "segType":"Compact Car",
+        "minQty":6
+      },
+      {
+        "segid":3,
+        "segType":"Sedan",
+        "minQty":5
+      },
+      {
+        "segid":4,
+        "segType":"SUVs",
+        "minQty":3
+      }
+    ]
+}
+}
+	

@@ -1,0 +1,333 @@
+.loginimg{
+  z-index: -1;
+    margin-top :20%;
+    position:absolute;
+    margin-left:-50%;
+    float:left;
+    clear:both;
+}
+.signupimg{
+   z-index: -1;
+    margin-top :-30%;
+    position:absolute;
+    margin-left:-150%;
+    float:left;
+    clear:both;
+  
+  
+}
+
+.navbar-text {
+  color: #ec5656 !important;
+  font-weight:900;
+  padding-bottom:0%!important;
+  padding-top: 0!important;
+    transition: transform .8s ease;
+}
+
+.navbar-text:hover{
+   color:black;
+   text-decoration: underline #ec5656 !important;    transform: scale(0.9);
+    overflow: hidden!important;transition: transform .8s ease;text-align: justify-all!important;
+
+}
+
+.body{
+   height:100vh;
+
+    font-size: 16px!important;
+    zoom:  90%;
+
+    font-family: 'Bree Serif';
+}
+
+.container-fluid {
+padding: -1px !important;
+    margin: -1px !important;
+     color:black;  
+     filter: brightness(95%);
+     font-family: 'Bree Serif', serif;
+     
+
+}
+.container{
+  text-align : center;
+}
+.form-control:focus {
+        border-color: #df5454 !important ;
+        box-shadow: 10px 10px 10px 10px #f55656 ;
+    }
+
+
+.nav-item{
+  padding: -1px !important;
+ color: rgb(220, 220, 220);
+    padding-bottom:0%!important;
+    padding-top: 0!important;
+    transition: transform .8s ease;
+}
+.navbar{
+  color:red;
+  padding-top: 0 !important;
+    padding-bottom: -1 !important;
+  background-color: #2a2a2b;
+   
+  
+}
+.navbar-brand {
+  padding: 1px !important;;
+}
+.row, .col {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.navbar-light {
+  background-color: #ffffff;
+  color:#da3f46;
+}
+.custom-control-label {
+  font-weight: 500;
+}
+
+.forgot-password,
+.forgot-password a {
+ 
+  padding-top: 10px;
+  color: #df5454;
+  margin: 0;
+}
+
+.forgot-password a, .forgot-password{
+  color: #df5454;
+}
+.root{
+  background-color: #24242400;
+}
+.upcomming-img {
+  width: 250px;
+  border-radius: 100% 100%;
+  box-shadow: 5px 5px 10px rgba(24, 23, 23, 0.521);
+  border : 2px solid #10111191;
+  transition: transform .8s ease;
+}
+
+.upcomming-img:hover
+{
+  transform: scale(1.10);overflow: hidden!important;transition: transform .8s ease;text-align: justify-all!important;
+}
+hr{
+    top: 50px; 
+     border: none; 
+    height: 22px;                
+    background: rgb(145, 132, 132); 
+    margin-bottom: 100px; 
+}
+.navheding:hover{
+
+  background-color:white;
+}
+.box,.productbutton {
+
+  transition-property: background, border-radius;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  
+  
+}
+.btnsubmit{
+  width:50% !important ;
+    transition: transform .8s ease!important;
+}
+Button {
+    transition: transform .8s ease!important;
+    border-radius: 100px!important;
+    margin-bottom: 15px!important;
+
+     border:none !important;
+}
+
+
+Button:hover {
+    transform: scale(1.2)!important;overflow: hidden!important;transition: transform .8s ease;
+
+
+}
+.signup{
+
+  width:50%!important;
+
+  }
+h1,.navheding ,.covertext,.loginbg,.signup ,.bookorders ,.defaultpage , Footer{
+    animation-duration:1.2s;
+    animation-name: slidedown;
+    animation-iteration-count: 1;
+}
+
+@keyframes  slidedown  {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, -1000%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+   visibility: visible;
+  }
+}
+
+
+.upcommingCards{
+  margin-top : 5%;
+   margin-Bottom : 0rem;
+  text-align : justify!important;
+}
+.cardsofbrands{
+
+    border-radius: 20px!important;
+
+}
+.wholecard{
+    transition: transform .8s ease;
+    width: 100% !important;
+    border-radius: 20px!important;
+    margin-bottom: 15px!important;
+    text-align: justify-all!important;
+    box-shadow: 1px 1px 5px #ffbebe !important; ;
+}
+.wholecard:hover{
+    transform: scale(1.08);overflow: hidden!important;transition: transform .8s ease;text-align: justify-all!important;
+    border-radius: 20px!important;
+}
+
+.custom-select{
+  border-radius: 0%!important;
+  width:0%;
+}
+.upcommingBrands, .login{
+ font-size: 200%;
+    font-weight: bolder;
+   color : #ef454e;
+   text-shadow: 1px 1px 1px#a39898;
+   text-align: center;
+}
+.loginbg{
+   
+  box-sizing: border-box;
+    text-align:center;
+    background-repeat: no-repeat;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   
+
+  }
+  .email{
+    display: block;
+  }
+.CardImg {
+  border-radius: 20px!important;
+}
+.cardboard {
+   background-color: 	#2e2e2ec7;
+   margin-bottom: 4rem;
+    transition: transform .8s ease;
+    width: 100% !important;
+    height:50%!important;
+    border-radius: 10px!important;
+    margin-bottom: 15px!important;
+    border-color-top: #ffbebe !important;
+    background-color: rgba(253, 252, 252, 0.8) !important;
+    text-align: justify-all!important;
+    box-shadow: 1px 1px 5px #ffbebe !important; ;
+}
+.colourofnav{
+  background-color:#464646d0;
+  opacity: 1;
+  
+}
+
+.App {
+  text-align: center;
+  font-family : bree-serif;
+ 
+  
+}
+
+.navheding {
+  font-size: 100%;
+    font-weight: bolder;
+   color:black!important;
+   text-shadow: 2px 1px #e9e0e0;
+}
+.titlebrands  {
+  margin-top: 4rem;
+     font-size: 250%;
+    font-weight: bolder;
+   color : #f24c54;
+   text-shadow: 2px 1px #e9e0e0;
+} 
+
+.topBrands{
+  margin-top : -2rem;
+  padding : 4rem;
+
+  text-align : center
+
+}
+.coverheading {
+ font-size: 250%;
+    font-weight: bolder;
+   color : #da3f46;
+   text-shadow: 1px 1px #e9e0e0;
+}
+#cover{
+
+   height: 111vh;
+
+   filter: brightness(98%);
+     zIndex: -1;
+
+  transition: opacity 1s ease-in;
+   text-shadow: 2px 1px #f95f5f;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #323335;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}

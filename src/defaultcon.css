@@ -1,0 +1,51 @@
+
+.card-text{
+    text-align: justify!important;
+}
+
+.defualtbtn{
+     width: 19% !important; transition: transform .8s ease;
+    display: inline !important;
+    margin: 30px!important; border-radius: 200px!important;
+    transform: scale(1.08);
+}
+.selectedcar {text-align: justify-all!important;
+    transition: transform .8s ease;
+    width: 100% !important;
+  height:50%!important;
+    border-radius: 10px!important;
+    margin-bottom: 15px!important;
+
+}
+.default-text{
+   margin-top: 3%!important; transition: transform .8s ease;
+    text-align: justify-all!important;
+    width: 100% !important;
+
+}
+
+.cardefault {
+    transition: transform .8s ease;
+    width: 100% !important;
+    height:50%!important;
+    border-radius: 10px!important;
+    margin-bottom: 15px!important;
+    border-color-top: #ffbebe !important;
+    background-color: rgba(253, 252, 252, 0.8) !important;
+    text-align: justify-all!important;
+    box-shadow: 1px 1px 5px #ffbebe !important; ;
+}
+.card-title{
+    font-weight: bold;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+
+    overflow: hidden!important; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover {
+    transform: scale(1.08);overflow: hidden!important;transition: transform .8s ease;text-align: justify-all!important;
+}
